@@ -1,0 +1,56 @@
+{
+    margin: 0;
+    padding: 0;
+    }
+  
+  body{
+  background-color :black; 
+   display:flex; 
+   place-items:center;
+   margin:auto;
+  }
+
+  main{
+    display:grid;
+    grid-template-areas:"f f f b"
+                        "f f f b"
+                        "c c d d"
+                        "c c e e" ;
+     gap: 10px;
+     width:30%;
+    height:50vh;
+    padding-top: 200px;
+    margin: auto;
+}
+  
+  main.div{
+    text-align: center; 
+  }
+
+/*items styling*/
+
+  .item-f{
+    background-color: rgb(235,80,32);
+    grid-area: f;
+   }
+  
+  .item-b{
+    background-color: rgb(255,164,1);
+    grid-area: b;
+  }
+  .item-c{
+    background-color: rgb(5,170,66);
+    grid-area: c;
+  }
+  
+  .item-d{
+    background-color: rgb(1,174,253);
+    grid-area: d;
+   
+  }
+  
+  
+  .item-e{
+    background-color: rgb(1,174,253);
+    grid-area: e;
+  }
